@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.list-container {
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.image-item {
+  width: 200px;
+}
+
+.para {
+  font-weight: 500;
+}

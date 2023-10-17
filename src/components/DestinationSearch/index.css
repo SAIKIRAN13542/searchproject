@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.destination-cont {
+  max-width: 885px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  color: black;
+}
+
+.search-cont {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.in {
+  background-color: #00000000;
+  border: 0;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-family: 'Bree Serif';
+}
+
+.logo {
+  height: 20px;
+}
+.items-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .bg,
+  .destination-cont {
+    align-self: flex-start;
+  }
+}
